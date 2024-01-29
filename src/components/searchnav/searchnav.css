@@ -1,0 +1,44 @@
+.App-search {
+  padding: 30px;
+  background-color: #282c34;
+}
+
+.searchInputs {
+  font-size: 15px;
+  height: 100%;
+  border: solid white;
+  background-color: white;
+  outline: none;
+  padding: 10px;
+}
+
+.h-Margin {
+  margin: 0px 20px 0px;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+#SearchBtn {
+  color: #61dafb;
+  border: solid #61dafb;
+  background-color: transparent;
+  font-size: 15px;
+  transition: 1s;
+  padding: 10px;
+}
+
+#SearchBtn:hover {
+  color: white;
+  border: solid #61dafb;
+  background-color: #61dafb;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1288px) {
+  .searchInputs,
+  #SearchBtn {
+    margin-top: 20px;
+  }
+}

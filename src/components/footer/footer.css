@@ -1,0 +1,64 @@
+.App-footer {
+  padding: 50px 100px;
+  color: white;
+  background-color: #282c34;
+  transition: 0.5s;
+}
+
+.Company-detail {
+  width: 15%;
+  text-align: left;
+  margin: 10px;
+  display: inline-block;
+}
+
+.Company-detail a {
+  color: #61dafb;
+  padding: 10px;
+  border: solid #61dafb;
+  font-size: 1.5vw;
+  text-decoration: none;
+}
+
+.Footer-Nav {
+  width: 40%;
+  display: inline-block;
+}
+
+.Company-socials {
+  width: 15%;
+  margin: 10px;
+  display: inline-block;
+}
+
+.Company-socials a {
+  color: #61dafb;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 10px;
+}
+
+@media only screen and (max-width: 810px) {
+  .App-footer {
+    padding: 50px;
+  }
+
+  .Company-detail {
+    width: auto;
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .Footer-Nav {
+    width: auto;
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  .Company-socials {
+    width: auto;
+    display: block;
+    margin-bottom: 30px;
+  }
+}

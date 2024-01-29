@@ -1,0 +1,19 @@
+.App-services {
+  width: 100%;
+  padding: 100px 0px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/public/images/House_2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.App-service-item {
+  color: white;
+  background-color: #282c34d0;
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  display: inline-block;
+  text-align: left;
+}

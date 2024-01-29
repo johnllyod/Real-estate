@@ -1,23 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import HouseGalleryFilter from "./components/gallery/HouseGalleryFilter";
+import TopNav from "./components/topnav/TopNav";
+import Services from "./components/services/Services";
+import About from "./components/about/About";
+import ContactUs from "./components/contactus/ContactUs";
+import Footer from "./components/footer/Footer";
 
-function App() {
+function App(props) {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <TopNav />
+
+      <section className="App-welcome">
+        <img src="/images/Cover_house.jpg" alt="Out door house" />
+        <h1>
+          Find your dream
+          <br />
+          home here!
+          <br />
+          <a href="#SearchNav">Find a home</a>
+        </h1>
+      </section>
+
+      <Services />
+
+      <HouseGalleryFilter data={props.data} />
+
+      <About />
+
+      <ContactUs />
+
+      <Footer />
+
+      <p>Created by John Llyod Apolo</p>
     </div>
   );
 }
