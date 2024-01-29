@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Real-estate/static/css/main.ccd633c0.css",
+    "main.js": "/Real-estate/static/js/main.1e4916bc.js",
+    "static/js/787.49e58a97.chunk.js": "/Real-estate/static/js/787.49e58a97.chunk.js",
+    "static/media/Building_2.jpg": "/Real-estate/static/media/Building_2.af58136700984ae0416d.jpg",
+    "static/media/House_2.jpg": "/Real-estate/static/media/House_2.57bf93ce001e2035ff0c.jpg",
+    "index.html": "/Real-estate/index.html",
+    "main.ccd633c0.css.map": "/Real-estate/static/css/main.ccd633c0.css.map",
+    "main.1e4916bc.js.map": "/Real-estate/static/js/main.1e4916bc.js.map",
+    "787.49e58a97.chunk.js.map": "/Real-estate/static/js/787.49e58a97.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ccd633c0.css",
+    "static/js/main.1e4916bc.js"
+  ]
+}
