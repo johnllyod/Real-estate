@@ -1,0 +1,70 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-welcome {
+  position: relative;
+  background-color: #282c34;
+}
+
+img {
+  width: 100%;
+}
+
+.App-welcome h1 {
+  color: white;
+  font-size: 5vw;
+  text-align: left;
+
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  text-shadow: 5px 5px #282c348e;
+}
+
+.App-welcome a {
+  color: #61dafb;
+  text-decoration: none;
+  font-size: 2vw;
+  padding: 10px;
+  border: solid #61dafb;
+}
+
+@media only screen and (min-width: 810px) and (max-width: 1200px) {
+  .App-gallery {
+    padding: 50px;
+    align-content: center;
+  }
+}
+
+@media only screen and (max-width: 810px) {
+  .App-gallery {
+    padding: 50px;
+    display: block;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

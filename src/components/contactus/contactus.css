@@ -1,0 +1,17 @@
+.App-contactus {
+  color: white;
+  padding: 200px 50px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/public/images/Building_2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.App-contactus a {
+  color: #61dafb;
+  text-decoration: none;
+  border: solid #61dafb;
+  padding: 10px;
+  font-size: 1.5vw;
+}

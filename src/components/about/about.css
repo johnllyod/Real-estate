@@ -1,0 +1,43 @@
+.App-about {
+  padding: 50px 300px;
+  transition: 0.5s;
+}
+
+.About-content {
+  display: flex;
+}
+
+.About-content p {
+  display: inline;
+  text-align: left;
+  padding: 10px;
+}
+
+.About-content img {
+  max-width: 300px;
+}
+
+.Reverse-order p {
+  order: 2;
+}
+
+@media only screen and (max-width: 1800px) {
+  .App-about {
+    padding: 50px 10%;
+  }
+}
+
+@media only screen and (max-width: 810px) {
+  .About-content {
+    display: unset;
+    text-align: left;
+  }
+
+  .About-content p {
+    display: unset;
+  }
+
+  .About-content img {
+    max-width: 500px;
+  }
+}

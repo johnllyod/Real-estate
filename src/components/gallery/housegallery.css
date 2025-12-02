@@ -1,0 +1,26 @@
+.App-house {
+  color: white;
+  background-color: #282c34;
+  padding: 15px;
+  text-align: center;
+  transition: 0.3s;
+  width: 400px;
+}
+
+@media only screen and (min-width: 940px) and (max-width: 1400px) {
+  .App-house {
+    width: 250px;
+  }
+}
+
+@media only screen and (min-width: 850px) and (max-width: 940px) {
+  .App-house {
+    width: 220px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .App-house {
+    width: auto;
+  }
+}
