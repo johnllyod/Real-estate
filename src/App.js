@@ -12,7 +12,7 @@ function App(props) {
       <TopNav />
 
       <section className="App-welcome">
-        <img src="/images/Cover_house.jpg" alt="Out door house" />
+        <img src="images/Cover_house.jpg" alt="Out door house" />
         <h1>
           Find your dream
           <br />
